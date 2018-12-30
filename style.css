@@ -1,0 +1,126 @@
+body{
+  background-color: blueviolet;
+  margin: 0; height: 100%; overflow: hidden
+}
+
+#mapid{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.searchbar{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.searchbutton {
+ color: #e84118;
+ float: right;
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ background: #2f3640;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+}
+
+.searchtext {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 100%;
+}﻿
+
+.searchbar:hover > .searchbutton {
+ background: white;
+ color: black;
+ width: 25px;
+ height: 25px;
+}
+
+/*
+.searchbar {
+ position: absolute;
+ top: 25px;
+ left: 25px;
+ background: #2f3640;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+}
+
+.searchbar:hover > .searchtext {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.searchbar:hover > .searchbutton {
+ background: white;
+ color: black;
+}
+
+.searchbutton {
+ color: #e84118;
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: #2f3640;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+}
+
+.searchbutton > i {
+ font-size: 30px;
+}
+
+.searchtext {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}﻿
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+asdf
