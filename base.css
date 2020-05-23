@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
+:root {
+    --cnegro: #eeeeee;
+    --cback: #000000;
+    
+    /*
+    --cnegro: #212529;
+    --cback: rgb(73, 156, 225);
+    */
+}
+
+.undertext{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+
+body {
+  background:var(--cback);
+  font-size:20px;
+  font-family:'Cousine',monospace;
+  color:var(--cnegro);
+  text-align: center;
+
+  line-height:1.6;
+  letter-spacing:0.5px;
+  
+}
+
+::selection {
+  color:var(--cback);
+  background:var(--cnegro);
+  padding:4px;
+  border-radius:1px;
+}
+
+a {
+  color:var(--cnegro);
+  text-decoration:none;
+  font-weight:400;
+  padding:6px 8px;
+  position:relative;
+  transition:all .1s ease;
+  margin-left:-8px;
+  -webkit-text-stroke:1px var(--cnegro);
+}
+
+a:hover {
+  color:var(--cback);
+  -webkit-text-stroke:1px var(--cback);
+}
+
+a:after {
+  transition:all .1s ease;
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:5%;
+  width:90%;
+  height:2px;
+  background:var(--cnegro);
+  z-index:-1;
+  border-radius:1px;
+}
+
+a:hover:after {
+  background:var(--cnegro);
+  height:100%;
+  border-radius:1px;
+  width:100%;
+  left:0;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  list-style-type: square;
+}
+
+ul li {
+  margin-bottom:12px;
+  
+}
